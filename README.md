@@ -1,9 +1,8 @@
 Experiments with predictive coding networks for text generation. 
 
 Roadmap: 
-1. FFNs for next token generation.
-2. Training details - how to interleave inference & weight updates, accelarating training via parallel kernels, batching over samples
-2a. Training over the minibatch - gradient is on the basis of avg. grad across the batch (but is avg the only way)
+1. Replicate CFAIR training described in the first reference paper
+2.  Transformers for next token generation.
 3. Faster inference techniques - for training stage 
 4. using a separate inference network for initialisation / hybrid model
 5. RNNs for generative text 
